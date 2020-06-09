@@ -1,12 +1,8 @@
 {
   "expo": {
-    "name": "weather-app",
-    "slug": "weather-app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "mingD-weather-app",
+    "slug": "mingD-weather-app",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +14,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "com.seo.mingD.weather.app",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.seo.mingD.weather.app"
     }
   }
 }
